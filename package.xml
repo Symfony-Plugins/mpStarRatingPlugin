@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.9.0" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0    http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>mpStarRatingPlugin</name>
+ <channel>pear.symfony-project.com</channel>
+ <summary>Use Stars in your rating forms.</summary>
+ <description>This script overrite the radios from the form by a nice javascript star rating system.</description>
+ <lead>
+  <name>Nei Rauni Santos</name>
+  <user>nei_rauni</user>
+  <email>nei.rauni@malapronta.com.br</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-05-21</date>
+ <time>16:38:25</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.symfony-project.com/license">MIT license</license>
+ <notes>
+You have to have the jquery on page.
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="1265248721db3e4803b5af1b261dce44" name="/lib/mpWidgetFormChoiceRating.class.php" role="data"/>
+   <file md5sum="56fedb1a442de32b59532fff20c8f57c" name="/web/css/jquery.ui.stars.css" role="data"/>
+   <file md5sum="83c66f072a98656d1a1a7fb5bdee7a0f" name="/web/css/jquery.ui.stars.min.css" role="data"/>
+   <file md5sum="932a1563642a0d44d04d780da0003136" name="/web/images/crystal-stars.png" role="data"/>
+   <file md5sum="a5b7be4b54ebc5a8b2fe522d93118fc4" name="/web/images/jquery.ui.stars.gif" role="data"/>
+   <file md5sum="0d508146f1304cc50c021aaf3f74aaff" name="/web/js/jquery.ui.stars.js" role="data"/>
+   <file md5sum="141d69538369b19ba5b9bfd592dc1935" name="/web/js/jquery.ui.stars.min.js" role="data"/>
+   <file md5sum="67d60abf132f2595e900fc3a6afb434a" name="README" role="data"/>
+   <file md5sum="c615e5164ed7ade6ad3c64743e435180" name="LICENSE" role="data"/>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.4</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   
+  </required>
+ </dependencies>
+ <phprelease/>
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <license>MIT</license>
+   <date>2008-11-08</date>
+   <notes>
+* Initial widget for choices
+   </notes>
+  </release>
+ </changelog>
+</package>
